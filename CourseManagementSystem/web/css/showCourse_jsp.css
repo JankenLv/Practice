@@ -1,0 +1,61 @@
+#limitRow {
+    float: left;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #574FAFFF;
+}
+#selectRow {
+    height: 25px;
+    margin: 0 3px 0 3px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#search {
+    float: right;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #574FAFFF;
+}
+#searchBox{
+    font-size: 16px;
+}
+#example{
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
+.buttom {
+    margin-top: 10px;
+}
+.buttom .left {
+    float: left;
+    margin-left: 15px;
+    padding: 4px 0;
+}
+.buttom .right {
+    float: right;
+    margin-right: 25px;
+}
+#currentPage {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(#F2F2F2, #D8D8D855);
+    border: 1px solid black;
+    margin: 0 10px 0 10px;
+    font-size: 15px;
+}
+#firstPage {
+    margin-right: 30px;
+}
+#lastPage {
+    margin-left: 30px;
+}
+.record {
+    margin: 0 5px 0 5px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}

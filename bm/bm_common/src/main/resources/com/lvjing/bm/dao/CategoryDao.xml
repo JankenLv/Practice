@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.4//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lvjing.bm.dao.CategoryDao">
+    <resultMap id="CategoryResultMap" type="Category">
+        <id property="id" column="id" javaType="Integer"/>
+        <result property="name" column="name" javaType="String"/>
+        <result property="createTime" column="create_time" javaType="java.util.Date"/>
+        <result property="updateTime" column="update_time" javaType="java.util.Date"/>
+    </resultMap>
+
+    <insert id="insert" useGeneratedKeys="true" parameterType="Category">
+        insert into book.category(name, create_time, update_time)
+        values(#{name}, #{createTime}, #{updateTime})
+    </insert>
+
+    <delete id="delete" parameterType="Integer">
+        delete from book.category where id = #{id}
+    </delete>
+
+    <update id="update" parameterType="Category" useGeneratedKeys="true">
+        update book.category set name = #{name} where id = #{id}
+    </update>
+
+    <select id="selectById" parameterType="Integer" resultMap="CategoryResultMap">
+        select * from book.category where id = #{id}
+    </select>
+
+    <select id="selectAll" resultMap="CategoryResultMap">
+        select * from book.category order by update_time desc
+    </select>
+</mapper>

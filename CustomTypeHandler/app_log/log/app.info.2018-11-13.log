@@ -1,0 +1,30 @@
+2018-11-13 08:28:09.542 INFO [restartedMain]com.ljs.ssp.SspApplication.logStarting:50 -Starting SspApplication on DESKTOP-CHVTINO with PID 10968 (D:\IDEAProjects\devsp\target\classes started by lvjin in D:\IDEAProjects\CustomTypeHandler)
+2018-11-13 08:28:09.542 INFO [restartedMain]com.ljs.ssp.SspApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2018-11-13 08:28:09.636 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-11-13 08:28:09.636 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-11-13 08:28:10.995 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-13 08:28:10.995 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-13 08:28:11.042 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2018-11-13 08:28:12.714 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2018-11-13 08:28:12.760 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-13 08:28:12.760 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2018-11-13 08:28:12.760 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-13 08:28:12.792 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_141\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_141\bin;C:\Program Files\Java\jdk1.8.0_141\jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\MySQL\mysql-8.0.12-winx64\bin;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Apache Software Foundation\maven-3.5.3\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\VisualSVN Server\bin;E:\Program Files\TortoiseSVN\bin;C:\Users\lvjin\AppData\Local\Microsoft\WindowsApps;C:\Users\lvjin\AppData\Roaming\npm;C:\Users\lvjin\AppData\Local\atom\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+2018-11-13 08:28:13.167 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2018-11-13 08:28:13.167 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 -Root WebApplicationContext: initialization completed in 3531 ms
+2018-11-13 08:28:13.229 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 -Servlet dispatcherServlet mapped to [/]
+2018-11-13 08:28:13.245 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-13 08:28:13.245 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-13 08:28:13.245 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 -Mapping filter: 'formContentFilter' to: [/*]
+2018-11-13 08:28:13.245 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 -Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-13 08:28:14.026 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-13 08:28:14.713 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2018-11-13 08:28:14.854 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2018-11-13 08:28:14.901 INFO [restartedMain]org.apache.tomcat.util.net.NioSelectorPool.log:173 -Using a shared selector for servlet write/read
+2018-11-13 08:28:14.932 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-13 08:28:14.948 INFO [restartedMain]com.ljs.ssp.SspApplication.logStarted:59 -Started SspApplication in 6.344 seconds (JVM running for 9.125)
+2018-11-13 08:28:30.606 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-13 08:28:30.607 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:521 -Initializing Servlet 'dispatcherServlet'
+2018-11-13 08:28:30.616 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:543 -Completed initialization in 9 ms
+2018-11-13 08:28:30.644 INFO [http-nio-8080-exec-1]com.ljs.ssp.controller.LogController.showLog:23 -这是info日志
+2018-11-13 08:28:30.645 WARN [http-nio-8080-exec-1]com.ljs.ssp.controller.LogController.showLog:24 -这是warn日志

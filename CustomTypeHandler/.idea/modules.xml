@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../ExportCSVWithBOM/ExportCSVWithBOM.iml" filepath="$PROJECT_DIR$/../ExportCSVWithBOM/ExportCSVWithBOM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../devsp/devsp.iml" filepath="$PROJECT_DIR$/../devsp/devsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lottery/lottery.iml" filepath="$PROJECT_DIR$/../lottery/lottery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../xdclass/xdclass.iml" filepath="$PROJECT_DIR$/../xdclass/xdclass.iml" />
+    </modules>
+  </component>
+</project>

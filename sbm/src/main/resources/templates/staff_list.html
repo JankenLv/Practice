@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <title>测试页面</title>
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <h1>Hello, world!</h1>
+        <p>...</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+    </div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>编号</th>
+            <th>账户名</th>
+            <th>姓名</th>
+            <th>出生日期</th>
+            <th>入职时间</th>
+        </tr>
+        </thead>
+        <tbody>
+        <#list JsonResult.data as staff>
+        <tr>
+            <td>${staff.id}</td>
+            <td>${staff.account}</td>
+            <td>${staff.name}</td>
+            <td>${staff.bornDate?date}</td>
+            <td>${staff.workTime?datetime}</td>
+        </tr>
+        </#list>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

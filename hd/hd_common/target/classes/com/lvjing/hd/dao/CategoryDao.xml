@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.4//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lvjing.hd.dao.CategoryDao">
+    <resultMap id="resultMap" type="Category">
+        <id property="id" column="id" javaType="Integer"/>
+        <result property="name" column="name" javaType="String"/>
+        <result property="createTime" column="create_time" javaType="java.util.Date"/>
+        <result property="updateTime" column="update_time" javaType="java.util.Date"/>
+    </resultMap>
+
+    <insert id="insert" parameterType="Category" useGeneratedKeys="true">
+        insert into category(name,create_time,update_time) values(#{name},#{createTime},#{updateTime})
+    </insert>
+
+    <delete id="delete" parameterType="Integer">
+        delete from category where id = #{id}
+    </delete>
+
+    <update id="update" parameterType="Category" useGeneratedKeys="true">
+        update category set name = #{name} where id = #{id}
+    </update>
+
+    <select id="selectOne" parameterType="Category" resultMap="resultMap">
+        select * from category
+        <where>
+            <if test="id != null">
+                id = #{id}
+            </if>
+            <if test="name != null">
+                name = #{name}
+            </if>
+        </where>
+    </select>
+
+    <select id="selectAll" resultMap="resultMap">
+        select * from category order by update_time desc;
+    </select>
+
+    <select id="selectById" resultMap="resultMap">
+        select * from category where id = #{id}
+    </select>
+
+</mapper>

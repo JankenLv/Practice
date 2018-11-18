@@ -1,0 +1,4 @@
+com\lvjing\cms\entity\Category.class
+com\lvjing\cms\entity\Canvas.class
+com\lvjing\cms\util\RegexUtil.class
+com\lvjing\cms\entity\User.class

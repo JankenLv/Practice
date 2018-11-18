@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.4//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lvjing.oa.dao.ClaimVoucherDao">
+    <resultMap id="claimVoucherResultMap" type="ClaimVoucher">
+        <id property="id" column="id" javaType="Integer"/>
+        <result property="cause" column="cause" javaType="String"/>
+        <result property="createSn" column="create_sn" javaType="String"/>
+        <result property="createTime" column="create_time" javaType="java.util.Date"/>
+        <result property="nextDealSn" column="next_deal_sn" javaType="String"/>
+        <result property="totalAmount" column="total_amount" javaType="double"/>
+        <result property="status" column="status" javaType="String"/>
+        <association property="creator" column="create_sn" select="com.lvjing.oa.dao.EmployeeDao.selectById"/>
+        <association property="dealer" column="next_deal_sn" select="com.lvjing.oa.dao.EmployeeDao.selectById"/>
+    </resultMap>
+
+    <insert id="insert" parameterType="ClaimVoucher" useGeneratedKeys="true" keyProperty="id">
+        insert into oa.claim_voucher(cause, create_sn, create_time, next_deal_sn, total_amount, status)
+        values(#{cause}, #{createSn}, #{createTime}, #{nextDealSn}, #{totalAmount}, #{status})
+    </insert>
+
+    <delete id="delete" parameterType="Integer">
+        delete from oa.claim_voucher where id = #{id}
+    </delete>
+
+    <update id="update" parameterType="ClaimVoucher" useGeneratedKeys="true">
+        update oa.claim_voucher
+        <set>
+            cause = #{cause},
+            create_sn = #{createSn},
+            create_time = #{createTime},
+            next_deal_sn = #{nextDealSn},
+            total_amount = #{totalAmount},
+            status = #{status}
+        </set>
+        where id = #{id}
+    </update>
+
+    <select id="select" parameterType="Integer" resultMap="claimVoucherResultMap">
+        select * from oa.claim_voucher where id = #{id}
+    </select>
+
+    <select id="selectByCreateSn" parameterType="String" resultMap="claimVoucherResultMap">
+        select * from oa.claim_voucher where create_sn = #{createSn} order by create_time desc
+    </select>
+
+    <select id="selectByNextDealSn" parameterType="String" resultMap="claimVoucherResultMap">
+        select * from oa.claim_voucher where next_deal_sn = #{nextDealSn} order by create_time desc
+    </select>
+</mapper>

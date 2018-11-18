@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="bm_operation:war exploded" />
+      <artifact name="bm_portal:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e9398ebd-a774-47af-8080-98be3b2b6b1e" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/sm_service/target/" />
+    <ignored path="$PROJECT_DIR$/sm_web/target/" />
+    <ignored path="$PROJECT_DIR$/../hd/target/" />
+    <ignored path="$PROJECT_DIR$/../hd/hd_portal/target/" />
+    <ignored path="$PROJECT_DIR$/../hd/hd_common/target/" />
+    <ignored path="$PROJECT_DIR$/../hd/hd_service/target/" />
+    <ignored path="$PROJECT_DIR$/../mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/../bm/target/" />
+    <ignored path="$PROJECT_DIR$/../bm/bm_common/target/" />
+    <ignored path="$PROJECT_DIR$/../bm/bm_portal/target/" />
+    <ignored path="$PROJECT_DIR$/../bm/bm_operation/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/sm$hd.ic" NAME="hd Coverage Results" MODIFIED="1531552384797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="sm" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>user</find>
+      <find>数据库</find>
+      <find>cat</find>
+      <find>scheduling.html</find>
+      <find>${pageContext.request.contextPath}/</find>
+      <find>register</find>
+      <find>${pageContext.request.contextPath}</find>
+      <find>一</find>
+      <find>maven.compiler.source</find>
+      <find>,</find>
+      <find>BookResultMap</find>
+      <find>select</find>
+      <find>name</find>
+      <find>role=&quot;button&quot;</find>
+      <find>category</find>
+      <find>id</find>
+      <find>book</find>
+      <find>List</find>
+      <find>&lt;/span&gt;</find>
+      <find>list</find>
+      <find>requestScope.PageInfo.CatId</find>
+      <find>resp</find>
+      <find>PageInfo</find>
+      <find>page</find>
+      <find>currency</find>
+      <find>图片</find>
+      <find>preview</find>
+      <find>file</find>
+      <find>新增</find>
+      <find>c3p0.</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>workTime</replace>
+      <replace>leaveTime</replace>
+      <replace>bornDate</replace>
+      <replace>},</replace>
+      <replace>id</replace>
+      <replace>USER</replace>
+      <replace>log</replace>
+      <replace>Staff.</replace>
+      <replace>auth</replace>
+      <replace>dep</replace>
+      <replace>get</replace>
+      <replace>javascript:void(0)</replace>
+      <replace>..</replace>
+      <replace>二</replace>
+      <replace>;</replace>
+      <replace>private String</replace>
+      <replace>#{</replace>
+      <replace>\r\n</replace>
+      <replace>CategoryResultMap</replace>
+      <replace>category</replace>
+      <replace>price</replace>
+      <replace>PageInfo</replace>
+      <replace>&lt;a href=&quot;1&quot;&gt;</replace>
+      <replace>&lt;/a&gt;</replace>
+      <replace>subList</replace>
+      <replace>requestScope.CatId</replace>
+      <replace>response</replace>
+      <replace>preview</replace>
+      <replace>修改</replace>
+      <replace>private String</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\IDEAProjects\bm\bm_operation\src\main\webapp\upload</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../bm/bm_common/src/main/java/com/lvjing/hm/service/BookService.java" />
+        <option value="$PROJECT_DIR$/../bm/bm_common/src/main/java/com/lvjing/hm/service/impl/BookServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../bm/bm_common/src/main/java/com/lvjing/hm/dao/CategoryDao.java" />
+        <option value="$PROJECT_DIR$/../bm/bm_common/src/main/resources/com/lvjing/hm/dao/CategoryDao.xml" />
+        <option value="$PROJECT_DIR$/../bm/bm_common/src/main/java/com/lvjing/hm/entity/Book.java" />
+        <option value="$PROJECT_DIR$/../bm/bm_common/src/main/resources/com/lvjing/hm/dao/BookDao.xml" />
+        <option value="$PROJECT_DIR$/../bm/bm_common/src/main/java/com/lvjing/hm/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/../bm/bm_common/src/main/java/com/lvjing/hm/service/impl/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../bm/bm_operation/src/main/webapp/WEB-INF/views/error/404.jsp" />
+        <option value="$PROJECT_DIR$/../bm/bm_operation/src/main/webapp/WEB-INF/views/error/500.jsp" />
+        <option value="$PROJECT_DIR$/../bm/bm_operation/src/main/webapp/WEB-INF/views/biz/category.jsp" />
+        <option value="$PROJECT_DIR$/../bm/bm_operation/src/main/java/com/lvjing/bm/global/DispactherServlet.java" />
+        <option value="$PROJECT_DIR$/../bm/bm_operation/src/main/java/com/lvjing/bm/global/DispactcherServlet.java" />
+        <option value="$PROJECT_DIR$/../bm/bm_common/src/main/resources/c3p0.properties" />
+        <option value="$PROJECT_DIR$/../bm/bm_common/pom.xml" />
+        <option value="$PROJECT_DIR$/../bm/bm_operation/src/main/webapp/WEB-INF/views/biz/add_category.jsp" />
+        <option value="$PROJECT_DIR$/../bm/bm_operation/src/main/webapp/WEB-INF/views/biz/modify_category.jsp" />
+        <option value="$PROJECT_DIR$/../bm/bm_operation/pom.xml" />
+        <option value="$PROJECT_DIR$/../bm/bm_operation/src/main/java/com/lvjing/bm/global/DispatcherServlet.java" />
+        <option value="$PROJECT_DIR$/../bm/bm_operation/src/main/java/com/lvjing/bm/global/UploadServlet.java" />
+        <option value="$PROJECT_DIR$/../bm/pom.xml" />
+        <option value="$PROJECT_DIR$/../bm/bm_common/src/main/java/com/lvjing/bm/service/BookService.java" />
+        <option value="$PROJECT_DIR$/../bm/bm_common/src/main/resources/com/lvjing/bm/dao/BookDao.xml" />
+        <option value="$PROJECT_DIR$/../bm/bm_common/src/main/resources/com/lvjing/bm/dao/CategoryDao.xml" />
+        <option value="$PROJECT_DIR$/../bm/bm_common/src/main/java/com/lvjing/bm/service/impl/BookServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../bm/bm_operation/src/main/java/com/lvjing/bm/controller/SelfController.java" />
+        <option value="$PROJECT_DIR$/../bm/bm_common/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/../bm/bm_portal/src/main/webapp/css/test.css" />
+        <option value="$PROJECT_DIR$/../bm/bm_portal/src/main/webapp/js/test.js" />
+        <option value="$PROJECT_DIR$/../bm/bm_portal/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/../bm/bm_portal/src/main/webapp/js/addBook.js" />
+        <option value="$PROJECT_DIR$/../bm/bm_operation/src/main/webapp/js/addBook.js" />
+        <option value="$PROJECT_DIR$/../bm/bm_operation/src/main/webapp/WEB-INF/views/biz/add_book.jsp" />
+        <option value="$PROJECT_DIR$/../bm/bm_portal/src/main/webapp/WEB-INF/views/biz/test.jsp" />
+        <option value="$PROJECT_DIR$/../bm/bm_operation/src/main/webapp/WEB-INF/views/biz/edit_book.jsp" />
+        <option value="$PROJECT_DIR$/../bm/bm_portal/src/main/webapp/WEB-INF/views/biz/home.jsp" />
+        <option value="$PROJECT_DIR$/../bm/bm_common/src/main/java/com/lvjing/bm/entity/Book.java" />
+        <option value="$PROJECT_DIR$/../bm/bm_common/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/../bm/bm_common/src/main/java/com/lvjing/bm/util/EncodingFilter.java" />
+        <option value="$PROJECT_DIR$/../bm/bm_portal/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/../bm/bm_operation/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/../bm/bm_operation/src/main/webapp/WEB-INF/views/biz/edit_category.jsp" />
+        <option value="$PROJECT_DIR$/../bm/bm_operation/src/main/webapp/WEB-INF/views/biz/category_list.jsp" />
+        <option value="$PROJECT_DIR$/../bm/bm_operation/src/main/java/com/lvjing/bm/controller/CategoryController.java" />
+        <option value="$PROJECT_DIR$/../bm/bm_operation/src/main/webapp/WEB-INF/views/biz/book_list.jsp" />
+        <option value="$PROJECT_DIR$/../bm/bm_portal/src/main/java/com/lvjing/bm/servlet/Properties.java" />
+        <option value="$PROJECT_DIR$/../bm/bm_portal/src/main/java/com/lvjing/bm/servlet/DatabaseProperties.java" />
+        <option value="$PROJECT_DIR$/../bm/bm_operation/src/main/java/com/lvjing/bm/global/PropertiesWithJavaConfig.java" />
+        <option value="$PROJECT_DIR$/../bm/bm_common/src/main/resources/spring.xml" />
+        <option value="$PROJECT_DIR$/../bm/bm_portal/src/main/java/com/lvjing/bm/servlet/BookServlet.java" />
+        <option value="$PROJECT_DIR$/../bm/bm_operation/src/main/java/com/lvjing/bm/controller/BookController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="bm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="bm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1798" />
+    <option name="y" value="112" />
+    <option name="width" value="1018" />
+    <option name="height" value="646" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bm" type="462c0819:PsiDirectoryNode" />
+              <item name="bm_portal" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="file&#9;PSI&#9;JAVA://java.io.File&#10;bookser&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_portal/src/main/java/com/lvjing/bm/servlet/BookServlet.java&#10;bookcontro&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_operation/src/main/java/com/lvjing/bm/controller/BookController.java&#10;Properties&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/util/Properties.class&#10;spring.xml&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_common/src/main/resources/spring.xml&#10;booklis&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_operation/src/main/webapp/WEB-INF/views/biz/book_list.jsp&#10;c&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_operation/src/main/webapp/WEB-INF/views/biz/category_list.jsp&#10;ca&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_operation/src/main/java/com/lvjing/bm/controller/CategoryController.java&#10;bookcon&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_operation/src/main/java/com/lvjing/bm/controller/BookController.java&#10;web&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_operation/src/main/webapp/WEB-INF/web.xml&#10;add&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_operation/src/main/webapp/WEB-INF/views/biz/add_book.jsp&#10;list&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_operation/src/main/webapp/WEB-INF/views/biz/book_list.jsp&#10;test.&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_portal/src/main/webapp/WEB-INF/views/biz/test.jsp&#10;edit&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_operation/src/main/webapp/WEB-INF/views/biz/edit_book.jsp&#10;log4j&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_common/src/main/resources/log4j.properties&#10;log&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_common/src/main/resources/log4j.properties&#10;bookdao&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_common/src/main/resources/com/lvjing/bm/dao/BookDao.xml&#10;Book&#9;PSI&#9;JAVA://com.lvjing.bm.entity.Book&#10;book_list&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_operation/src/main/webapp/WEB-INF/views/biz/book_list.jsp&#10;book&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_operation/src/main/java/com/lvjing/bm/controller/BookController.java&#10;bookcontroller&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_operation/src/main/java/com/lvjing/bm/controller/BookController.java&#10;categoryl&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_operation/src/main/webapp/WEB-INF/views/biz/category_list.jsp&#10;booklist&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_operation/src/main/webapp/WEB-INF/views/biz/book_list.jsp&#10;pageinfo&#9;PSI&#9;JAVA://com.github.pagehelper.PageInfo&#10;spring&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_common/src/main/resources/spring.xml&#10;bookService&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_common/src/main/java/com/lvjing/bm/service/BookService.java&#10;categorydao&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_common/src/main/resources/com/lvjing/bm/dao/CategoryDao.xml&#10;spring.&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_common/src/main/resources/spring.xml&#10;dispatc&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_operation/src/main/java/com/lvjing/bm/global/DispatcherServlet.java&#10;categorycontr&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_operation/src/main/java/com/lvjing/bm/controller/CategoryController.java&#10;categorycon&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_operation/src/main/java/com/lvjing/bm/controller/CategoryController.java&#10;bookcontr&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_operation/src/main/java/com/lvjing/bm/controller/BookController.java&#10;cate&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_operation/src/main/webapp/WEB-INF/views/biz/category_list.jsp&#10;BookDao&#9;FILE&#9;file://D:/IDEAProjects/bm/bm_common/src/main/resources/com/lvjing/bm/dao/BookDao.xml&#10;category&#9;PSI&#9;JAVA://com.lvjing.bm.controller.CategoryController&#10;categoryservice&#9;PSI&#9;JAVA://com.lvjing.hd.service.impl.CategoryServiceImpl&#10;Webapplication&#9;PSI&#9;JAVA://org.springframework.web.context.support.WebApplicationContextUtils&#10;Webapplicati&#9;PSI&#9;JAVA://org.springframework.web.context.WebApplicationContext&#10;Category&#9;PSI&#9;JAVA://com.lvjing.hd.entity.Category&#10;person&#9;FILE&#9;file://D:/IDEAProjects/mybatis/src/main/java/com/lvjing/mybatis/bean/Person.java&#10;auth&#9;PSI&#9;JAVA://com.lvjing.hd.controller.AuthController&#10;controller&#9;FILE&#9;file://D:/IDEAProjects/hd/hd_service/src/main/java/com/lvjing/hd/controller/DepartmentController.java&#10;departmentdao&#9;FILE&#9;file://D:/IDEAProjects/hd/hd_common/src/main/resources/com/lvjing/hd/dao/DepartmentDao.xml&#10;departmentC&#9;FILE&#9;file://D:/IDEAProjects/hd/hd_service/src/main/java/com/lvjing/hd/controller/DepartmentController.java&#10;departmentmo&#9;FILE&#9;file://D:/IDEAProjects/hd/hd_service/src/main/webapp/WEB-INF/views/biz/department_modify.jsp&#10;departmentS&#9;FILE&#9;file://D:/IDEAProjects/hd/hd_common/src/main/java/com/lvjing/hd/service/impl/DepartmentServiceImpl.java&#10;department&#9;PSI&#9;JAVA://com.lvjing.hd.entity.Department&#10;categoryser&#9;FILE&#9;file://D:/IDEAProjects/hd/hd_common/src/main/java/com/lvjing/hd/service/impl/CategoryServiceImpl.java&#10;User&#9;PSI&#9;JAVA://com.lvjing.hd.entity.User&#10;dis&#9;FILE&#9;file://D:/IDEAProjects/hd/hd_service/src/main/java/com/lvjing/hd/global/DispatcherServlet.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mybatis/src/main/webapp" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.1578125" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEAProjects\bm\bm_operation\src\main\webapp\WEB-INF\views\biz" />
+      <recent name="D:\IDEAProjects\bm\bm_operation\src\main\webapp\js" />
+      <recent name="D:\IDEAProjects\bm\bm_portal\src\main\webapp\js" />
+      <recent name="D:\IDEAProjects\bm\bm_portal\src\main\webapp" />
+      <recent name="D:\IDEAProjects\bm\bm_portal\src\main\webapp\WEB-INF\views\biz" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lvjing.mybatis.Interceptor" />
+      <recent name="com.lvjing.mybatis.bean" />
+      <recent name="com.lvjing.hd.util" />
+      <recent name="com.lvjing.sm.controller" />
+      <recent name="com.lvjing.sm.service.impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEAProjects\bm\bm_common\src\main\resources" />
+      <recent name="D:\IDEAProjects\bm\bm_operation\src\main\resources" />
+      <recent name="D:\IDEAProjects\hd\hd_portal\src\main\webapp" />
+      <recent name="D:\IDEAProjects\sm\sm_service\src\main\resources" />
+      <recent name="D:\IDEAProjects\sm\sm_web\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="hd" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="bm" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/portal" />
+      <option name="UPDATING_POLICY" value="update-resources" />
+      <deployment>
+        <artifact name="bm_portal:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/portal" />
+          </settings>
+        </artifact>
+        <artifact name="bm_operation:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/operation" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_sm_4" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61545" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="bm_operation:war exploded" />
+          <artifact name="bm_portal:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9398ebd-a774-47af-8080-98be3b2b6b1e" name="Default" comment="" />
+      <created>1531208585145</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531208585145</updated>
+      <workItem from="1531208590665" duration="26525000" />
+      <workItem from="1531267525509" duration="30814000" />
+      <workItem from="1531312875746" duration="8541000" />
+      <workItem from="1531356258542" duration="11131000" />
+      <workItem from="1531376763277" duration="1405000" />
+      <workItem from="1531379044973" duration="13344000" />
+      <workItem from="1531445325048" duration="38559000" />
+      <workItem from="1531527109388" duration="31959000" />
+      <workItem from="1531572821078" duration="1458000" />
+      <workItem from="1531614146015" duration="13561000" />
+      <workItem from="1531641966793" duration="10837000" />
+      <workItem from="1531705899473" duration="12698000" />
+      <workItem from="1531726336336" duration="3378000" />
+      <workItem from="1531784185900" duration="36475000" />
+      <workItem from="1531836241130" duration="5776000" />
+      <workItem from="1531874631256" duration="43631000" />
+      <workItem from="1531958370931" duration="40738000" />
+      <workItem from="1532051136765" duration="12830000" />
+      <workItem from="1532080734193" duration="181000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ParameterTest_findSomePerson - 2018.07.15 at 21h 07m 05s.xml">
+      <configuration name="ParameterTest.findSomePerson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParameterTest_findSomePerson - 2018.07.15 at 21h 09m 50s.xml">
+      <configuration name="ParameterTest.findSomePerson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParameterTest_findSomePerson - 2018.07.15 at 21h 21m 29s.xml">
+      <configuration name="ParameterTest.findSomePerson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParameterTest - 2018.07.15 at 21h 25m 55s.xml">
+      <configuration name="ParameterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParameterTest - 2018.07.15 at 21h 26m 29s.xml">
+      <configuration name="ParameterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParameterTest_findAllPersons - 2018.07.15 at 21h 52m 39s.xml">
+      <configuration name="ParameterTest.findAllPersons" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParameterTest_findAllPersons - 2018.07.15 at 21h 55m 03s.xml">
+      <configuration name="ParameterTest.findAllPersons" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParameterTest_findAllPersons - 2018.07.16 at 11h 37m 22s.xml">
+      <configuration name="ParameterTest.findAllPersons" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParameterTest_findAllPersons - 2018.07.16 at 11h 38m 03s.xml">
+      <configuration name="ParameterTest.findAllPersons" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParameterTest_findAllPersons - 2018.07.16 at 11h 44m 02s.xml">
+      <configuration name="ParameterTest.findAllPersons" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="343841000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1358" y="-8" width="1456" height="876" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50416666" side_tool="true" weight="0.23568575" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.3768309" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.17638889" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Tail" order="2" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32876712" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24961948" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49583334" weight="0.13715047" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.3282572" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49722221" weight="0.099866845" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.52996004" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.50183153" visible="true" weight="0.16666667" />
+      <window_info id="Web" order="0" side_tool="true" />
+      <window_info id="Learn" order="7" weight="0.32980332" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="6" sideWeight="0.4981685" side_tool="true" weight="0.20208333" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3298611" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="4" sideWeight="0.49791667" weight="0.32756326" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49930555" weight="0.2756325" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24930556" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.3768309" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49722221" weight="0.4966711" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24961948" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.4981685" side_tool="true" weight="0.20208333" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.52996004" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50277776" side_tool="true" weight="0.32756326" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49930555" weight="0.2756325" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.3282572" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24930556" />
+      <window_info anchor="bottom" id="Java Enterprise" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.23402777" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32756326" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.50183153" visible="true" weight="0.20208333" />
+      <window_info id="Learn" order="7" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32876712" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info id="Web" order="0" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3298611" />
+      <window_info anchor="bottom" id="Tail" order="2" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49722221" visible="true" weight="0.27296937" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="212" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>response.sendRedirect(&quot;/&quot; + portalName + &quot;?USER=&quot; + username )</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>username != null</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../bm/bm_common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_operation/src/main/webapp/WEB-INF/views/biz/add_category.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_operation/src/main/java/com/lvjing/bm/global/UploadServlet.java" />
+    <entry file="file://$PROJECT_DIR$/../bm/bm_operation/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="29" column="50" lean-forward="true" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_operation/src/main/webapp/WEB-INF/views/biz/modify_category.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.0.0/pagehelper-5.0.0.jar!/com/github/pagehelper/Page.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="541" selection-start-line="541" selection-end-line="541" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.0.0/pagehelper-5.0.0.jar!/com/github/pagehelper/PageInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.0.0/pagehelper-5.0.0.jar!/com/github/pagehelper/ISelect.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_portal/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816">
+          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/jre/lib/ext/spring-core-4.1.1.RELEASE.jar!/org/springframework/util/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_common/src/main/resources/com/lvjing/bm/dao/BookDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_portal/src/main/webapp/css/test.css" />
+    <entry file="file://$PROJECT_DIR$/../bm/bm_portal/src/main/webapp/js/jquery-1.4.2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="2593" column="14" selection-start-line="2593" selection-start-column="14" selection-end-line="2593" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_portal/src/main/webapp/js/test.js" />
+    <entry file="file://$PROJECT_DIR$/../bm/bm_portal/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_portal/src/main/webapp/js/addBook.js" />
+    <entry file="file://$PROJECT_DIR$/../bm/bm_operation/src/main/webapp/WEB-INF/views/biz/edit_book.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_portal/src/main/webapp/WEB-INF/views/biz/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_portal/src/main/webapp/WEB-INF/views/biz/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1032">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_operation/src/main/webapp/WEB-INF/views/biz/add_book.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="57" column="10" lean-forward="true" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_operation/src/main/webapp/js/addBook.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_common/src/main/java/com/lvjing/bm/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_common/src/main/java/com/lvjing/bm/dao/CategoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_common/src/main/java/com/lvjing/bm/entity/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_common/src/main/java/com/lvjing/bm/entity/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_common/src/main/java/com/lvjing/bm/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_common/src/main/java/com/lvjing/bm/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_common/src/main/java/com/lvjing/bm/service/impl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_common/src/main/java/com/lvjing/bm/service/impl/BookServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_common/src/main/resources/com/lvjing/bm/dao/CategoryDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_common/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_common/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_operation/src/main/java/com/lvjing/bm/controller/SelfController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_operation/src/main/java/com/lvjing/bm/global/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_common/src/main/java/com/lvjing/bm/util/EncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_portal/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_operation/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="46" column="15" lean-forward="true" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_operation/src/main/webapp/WEB-INF/views/biz/edit_category.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_operation/src/main/webapp/WEB-INF/views/biz/category_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_operation/src/main/java/com/lvjing/bm/controller/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_operation/src/main/webapp/WEB-INF/views/biz/book_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/util/Properties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14105">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_portal/src/main/java/com/lvjing/bm/servlet/DatabaseProperties.java" />
+    <entry file="file://$PROJECT_DIR$/../bm/bm_operation/src/main/java/com/lvjing/bm/global/PropertiesWithJavaConfig.java" />
+    <entry file="file://$PROJECT_DIR$/../bm/bm_common/src/main/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_common/src/main/resources/c3p0.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1464">
+          <caret line="148" column="13" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_portal/src/main/java/com/lvjing/bm/servlet/BookServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="112" column="74" selection-start-line="112" selection-start-column="65" selection-end-line="112" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bm/bm_operation/src/main/java/com/lvjing/bm/controller/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="234" lean-forward="true" selection-start-line="234" selection-end-line="234" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>bm_operation:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>bm_portal</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

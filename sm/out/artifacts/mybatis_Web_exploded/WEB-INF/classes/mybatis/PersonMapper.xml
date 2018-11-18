@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.4//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lvjing.mybatis.dao.PersonMapper">
+    <resultMap id="personResultMap" type="Person">
+        <id property="id" column="id" javaType="Integer"/>
+        <result property="username" column="username" javaType="String"/>
+        <result property="email" column="email" javaType="String"/>
+        <result property="gender" column="gender" javaType="String"/>
+        <result property="deptId" column="dept_id" javaType="Integer"/>
+    </resultMap>
+
+    <delete id="delete" parameterType="Integer">
+        delete from mybatis.person where id = #{id}
+    </delete>
+
+    <insert id="insert" parameterType="Person" useGeneratedKeys="true">
+        insert mybatis.person(username,email,gender,dept_id)
+        values(#{username},#{email},#{gender},#{deptId})
+    </insert>
+
+    <update id="update" parameterType="Person" useGeneratedKeys="true">
+
+    </update>
+
+    <select id="selectOne" resultMap="personResultMap">
+      select * from mybatis.person where username = #{name} and dept_id = #{deptId}
+    </select>
+
+    <select id="selectAll" resultMap="personResultMap">
+      select * from mybatis.person
+    </select>
+
+    <select id="selectSome" resultMap="personResultMap">
+        select * from mybatis.person where id in
+        <foreach collection="array" item="id" index="i" open="(" close=")" separator=",">
+            #{id}
+        </foreach>
+    </select>
+
+</mapper>

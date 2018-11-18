@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.random.lottery.mapper.SignupGroupMemberTMapper" >
+  <resultMap id="BaseResultMap" type="com.random.lottery.model.SignupGroupMemberT" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="signup_group_config_id" property="signupGroupConfigId" jdbcType="INTEGER" />
+    <result column="signup_config_id" property="signupConfigId" jdbcType="INTEGER" />
+    <result column="member_id" property="memberId" jdbcType="INTEGER" />
+    <result column="start_date" property="startDate" jdbcType="TIMESTAMP" />
+    <result column="sms_notice_count" property="smsNoticeCount" jdbcType="TINYINT" />
+    <result column="created_user_id" property="createdUserId" jdbcType="INTEGER" />
+    <result column="create_date" property="createDate" jdbcType="TIMESTAMP" />
+    <result column="updated_user_id" property="updatedUserId" jdbcType="INTEGER" />
+    <result column="update_date" property="updateDate" jdbcType="TIMESTAMP" />
+    <result column="status" property="status" jdbcType="TINYINT" />
+    <result column="batch_code" property="batchCode" jdbcType="VARCHAR" />
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    id, signup_group_config_id, signup_config_id, member_id, start_date, sms_notice_count, 
+    created_user_id, create_date, updated_user_id, update_date, status, batch_code
+  </sql>
+
+  <!-- 插入会员分组信息 -->
+  <insert id="insert">
+    insert into
+      signup_group_member_t
+      (
+      signup_config_id,
+      member_id
+      )
+    values
+      <foreach collection="data" index="key" item="value" separator=",">
+        <foreach collection="value" item="item" separator=",">
+        (#{key.id},#{item})
+        </foreach>
+      </foreach>
+  </insert>
+
+</mapper>

@@ -1,0 +1,45 @@
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>网校在线学习平台</title>
+    <link href="${s.base}/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="${s.base}/css/reset.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="${s.base}/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="${s.base}/js/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="icon" type="image/png" href="${s.base}/i/ico.png" sizes="16x16">
+
+    <script type="text/javascript">
+        CONETXT_PATH = '${s.base}';
+    </script>
+</head>
+
+<body>
+<div class="f-header">
+    <div class="f-header-box clearfix">
+        <a href="${s.base}"  class="logo" title="网校在线学习平台"></a>
+        <nav class="header-nav">
+            <a href="${s.base}" class="header-nav-item">首 页</a>
+            <a href="${s.base}/course/list.html" class="header-nav-item">课 程</a>
+            <a href="${s.base}/course/learn.html" class="header-nav-item">Java</a>
+            <a href="${s.base}/user/home.html" class="header-nav-item">我的</a>
+            <a href="${s.base}/cms/index.html" target="_blank" class="header-nav-item">教师端</a>
+            <a href="${s.base}/opt/index.html" target="_blank" class="header-nav-item">运营</a>
+        </nav>
+
+        <nav class="header-nav" style="float:right">
+            <a href="#myModal" class="header-nav-item"  data-toggle="modal" onclick="login();"  style="margin-right:0px;font-size:14px;">登录</a>
+            <a href="#myModal" class="header-nav-item" data-toggle="modal" onclick="registe();"  style="margin-left:0px;font-size:14px;">注册</a>
+            <a href="#" class="header-nav-item"  style="margin-left:0px;font-size:14px;" id="userdetail">头像</a>
+        </nav>
+
+    </div>
+</div>

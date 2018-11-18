@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--配置目标类-->
+    <bean id="employeeDao" class="com.lvjing.aspectXML.EmployeeDao"/>
+
+    <!--配置通知类-->
+    <bean id="myAdviceMethod" class="com.lvjing.aspectXML.MyAdviceMethod"/>
+
+    <!--配置AOP的切面-->
+    <aop:config proxy-target-class="true">
+        <!--配置切点-->
+        <aop:pointcut id="myPointcut1" expression="execution(* com.lvjing.aspectXML.EmployeeDao.delEmployee(..))"/>
+        <aop:pointcut id="myPointcut2" expression="execution(* com.lvjing.aspectXML.EmployeeDao.addEmployee(..))"/>
+        <aop:pointcut id="myPointcut3" expression="execution(* com.lvjing.aspectXML.EmployeeDao.updateEmployee(..))"/>
+        <aop:pointcut id="myPointcut4" expression="execution(* com.lvjing.aspectXML.EmployeeDao.findEmployee(..))"/>
+        <!--配置切面-->
+        <aop:aspect ref="myAdviceMethod">
+            <!--配置前置通知-->
+            <aop:before method="beforeAdvice" pointcut-ref="myPointcut2"/>
+            <!--配置后置通知-->
+            <aop:after-returning method="afterAdvice" pointcut-ref="myPointcut1" returning="result"/>
+            <!--配置环绕通知-->
+            <aop:around method="roundAdvice" pointcut-ref="myPointcut3"/>
+            <!--配置异常抛出通知-->
+            <aop:after-throwing method="afterThrowing" pointcut-ref="myPointcut4" throwing="e"/>
+            <!--配置最终通知-->
+            <aop:after method="finalAdvice" pointcut-ref="myPointcut4"/>
+        </aop:aspect>
+    </aop:config>
+
+</beans>

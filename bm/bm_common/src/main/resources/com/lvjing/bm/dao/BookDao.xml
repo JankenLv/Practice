@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.4//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lvjing.bm.dao.BookDao">
+    <resultMap id="BookResultMap" type="Book">
+        <id property="id" column="id" javaType="Integer"/>
+        <result property="categoryId" column="category_id" javaType="Integer"/>
+        <result property="name" column="name" javaType="String"/>
+        <result property="level" column="level" javaType="Integer"/>
+        <result property="price" column="price" javaType="Integer"/>
+        <result property="imgPath" column="img_path" javaType="String"/>
+        <result property="createTime" column="create_time" javaType="java.util.Date"/>
+        <result property="updateTime" column="update_time" javaType="java.util.Date"/>
+        <association property="category" column="category_id" select="com.lvjing.bm.dao.CategoryDao.selectById" javaType="Integer"/>
+    </resultMap>
+
+    <insert id="insert" useGeneratedKeys="true" parameterType="Book">
+        insert into book.book(category_id, name, level, price, img_path, create_time, update_time)
+        values(#{categoryId}, #{name}, #{level}, #{price}, #{imgPath}, #{createTime}, #{updateTime})
+    </insert>
+
+    <delete id="delete" parameterType="Integer">
+        delete from book.book where id = #{id}
+    </delete>
+
+    <update id="update" parameterType="Book" useGeneratedKeys="true">
+        update book.book
+        <set>
+            category_id = #{categoryId},
+            name = #{name},
+            level = #{level},
+            price = #{price},
+            img_path = #{imgPath}
+        </set>
+        where id = #{id}
+    </update>
+
+    <select id="selectById" parameterType="Integer" resultMap="BookResultMap">
+        select * from book.book where id = #{id}
+    </select>
+
+    <select id="selectByCatId" parameterType="Integer" resultMap="BookResultMap">
+        select * from book.book where category_id = #{categoryId} order by update_time desc
+    </select>
+
+    <select id="selectAll" resultMap="BookResultMap">
+        select * from book.book order by update_time desc
+    </select>
+</mapper>

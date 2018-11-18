@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<!--<head>
+    <meta content="text/html;charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>Thymeleaf 模板引擎</title>
+</head>-->
+<head th:include="header::head"></head>
+<body>
+<!--<form action="/login" name="testForm" id="testForm">-->
+<form action="#" name="testForm" id="testForm" method="post">
+    <input type="text" name="name" placeholder="please enter your name">
+    <p></p>
+    <input type="text" name="password" placeholder="please enter your password">
+    <p></p>
+    <input type="submit" value="i am a button" />
+</form>
+</body>
+<script type="text/javascript">
+        $(document).ready(function () {
+            var options = {
+                type : "post",
+                dateType : "text/html;charset=UTF-8",
+                success: function (result) {
+                    alert(result);
+                }
+            };
+            $("#testForm").ajaxForm(options);
+        });
+            /*$(function () {
+                var data = {
+                    "name":"小猪乔治",
+                    "password":"123456"
+                };
+                $.ajax({
+                    url : "/login",
+                    type : "post",
+                    data : JSON.stringify(data),
+                    contentType : "application/json;charset=UTF-8",
+                    dataType : "json",
+                    success : function (result) {
+                        alert(result.name + "  " + result.password);
+                    },
+                    error : function (result) {
+                        alert(result.status + "  " + result.statusMessage + "  " + result.statusText);
+                    }
+                });
+            })*/
+</script>
+</html>

@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CMS" />
+      <artifact name="CanvasManageSystem:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b56d1d3-7d1a-4cbe-97d6-a61a3cd14421" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/../cms-service/target/" />
+    <ignored path="$PROJECT_DIR$/../cms-common/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CanvasManageSystem" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.</find>
+      <find>src</find>
+      <find>login-btn</find>
+      <find>background-image</find>
+      <find>button</find>
+      <find>\</find>
+      <find>,</find>
+      <find>}</find>
+      <find>showCanvasDetail.do</find>
+      <find>add</find>
+      <find>selectAllCanvas</find>
+      <find>update</find>
+      <find>price</find>
+      <find>show</find>
+      <find>select</find>
+      <find>selec</find>
+      <find>showAllCanvas</find>
+      <find>manageCanvas</find>
+      <find>showCanvasOfCategory</find>
+      <find>showCanvasDetail</find>
+      <find>sys-btn</find>
+      <find>first-page</find>
+      <find>li</find>
+      <find>current-page</find>
+      <find>page-nav</find>
+      <find>current</find>
+      <find>findCanvas</find>
+      <find>loginPrompt</find>
+      <find>login</find>
+      <find>image</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>img</replace>
+      <replace>/</replace>
+      <replace>= ,</replace>
+      <replace>#{</replace>
+      <replace>}</replace>
+      <replace>},</replace>
+      <replace>showAllCanvas</replace>
+      <replace>manageCanvas</replace>
+      <replace>manageCanvasOfCategory</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../cms-service/src/main/java/com/lvjing/cms/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/../cms-service/src/main/java/com/lvjing/cms/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lvjing/cms/servlet/index.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lvjing/cms/servlet/CategoryServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/style/detail.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lvjing/cms/util/ParseRequestUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lvjing/cms/util/Requestutil.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/style/index.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/css/index.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/pagination.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lvjing/cms.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lvjing/cms/filter/CanvasFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lvjing/cms/filter/CategoryFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lvjing/cms/filter/EncodeFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lvjing/cms/servlet/CanvasServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/biz/add_canvas.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/biz/add_category.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/biz/canvas_list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/biz/canvas_under_category_list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/biz/category_list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/biz/detail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/biz/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/biz/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/biz/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/biz/update_canvas.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/biz/update_category.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error/404.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error/500.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/basePath.jsp" />
+        <option value="$PROJECT_DIR$/../cms-common/src/main/java/com/lvjing/cms/entity/Canvas.java" />
+        <option value="$PROJECT_DIR$/../cms-common/src/main/java/com/lvjing/cms/entity/User.java" />
+        <option value="$PROJECT_DIR$/../cms-common/src/main/java/com/lvjing/cms/util/RegexUtil.java" />
+        <option value="$PROJECT_DIR$/../cms-service/src/main/java/com/lvjing/cms/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lvjing/cms/servlet/UserServlet.java" />
+        <option value="$PROJECT_DIR$/../cms-service/src/main/java/com/lvjing/cms/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/../cms-service/src/test/java/TestThreadLocal.java" />
+        <option value="$PROJECT_DIR$/../cms-service/src/test/java/com/lvjing/cms/TestThreadLoacl.java" />
+        <option value="$PROJECT_DIR$/../cms-service/src/test/java/com/lvjing/cms/TestClient.java" />
+        <option value="$PROJECT_DIR$/../cms-service/src/test/java/com/lvjing/cms/domain.java" />
+        <option value="$PROJECT_DIR$/../cms-service/src/test/java/com/lvjing/cms/TestThreadLocal.java" />
+        <option value="$PROJECT_DIR$/../cms-service/src/main/java/com/lvjing/cms/service/CanvasService.java" />
+        <option value="$PROJECT_DIR$/../cms-service/src/main/java/com/lvjing/cms/mapper/CategoryMapper.java" />
+        <option value="$PROJECT_DIR$/../cms-service/src/main/java/com/lvjing/cms/mapper/CanvasMapper.java" />
+        <option value="$PROJECT_DIR$/../cms-service/src/main/java/com/lvjing/cms/dao/CanvasDao.java" />
+        <option value="$PROJECT_DIR$/../cms-service/src/main/java/com/lvjing/cms/util/JDBCUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lvjing/cms/servlet/IndexServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lvjing/cms/listener/LoadResourceListener.java" />
+        <option value="$PROJECT_DIR$/../cms-service/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/css/login.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="CanvasManageSystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="CanvasManageSystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1533" />
+    <option name="y" value="122" />
+    <option name="width" value="1018" />
+    <option name="height" value="646" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CanvasManageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CanvasManageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CanvasManageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CanvasManageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="servlet&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/java/com/lvjing/cms/servlet/UserServlet.java&#10;mapper&#9;PSI&#9;JAVA://com.lvjing.cms.mapper.CanvasMapper&#10;canvasservlet&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/java/com/lvjing/cms/servlet/CanvasServlet.java&#10;canvasdao&#9;FILE&#9;file://D:/IDEAProjects/cms-service/src/main/java/com/lvjing/cms/dao/CanvasDao.java&#10;listener&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/java/com/lvjing/cms/listener/LoadResourceListener.java&#10;usermapper&#9;FILE&#9;file://D:/IDEAProjects/cms-service/src/main/java/com/lvjing/cms/mapper/UserMapper.java&#10;userservlet&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/java/com/lvjing/cms/servlet/UserServlet.java&#10;Regex&#9;PSI&#9;JAVA://com.lvjing.cms.util.RegexUtil&#10;addcanvas&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/webapp/WEB-INF/views/biz/add_canvas.jsp&#10;userdao&#9;FILE&#9;file://D:/IDEAProjects/cms-service/src/main/java/com/lvjing/cms/dao/UserDao.java&#10;categor&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/java/com/lvjing/cms/filter/CategoryFilter.java&#10;canvas&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/java/com/lvjing/cms/filter/CanvasFilter.java&#10;filter&#9;PSI&#9;JAVA://com.lvjing.cms.filter.EncodeFilter&#10;canvaslist&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/webapp/WEB-INF/views/biz/canvas_list.jsp&#10;category&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/java/com/lvjing/cms/filter/CategoryFilter.java&#10;canvasfilter&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/java/com/lvjing/cms/filter/CanvasFilter.java&#10;canvasservice&#9;PSI&#9;JAVA://com.lvjing.cms.service.CanvasService&#10;canvasmapper&#9;FILE&#9;file://D:/IDEAProjects/cms-service/src/main/java/com/lvjing/cms/mapper/CanvasMapper.java&#10;home&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/webapp/WEB-INF/views/biz/home.jsp&#10;categoryservlet&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/java/com/lvjing/cms/servlet/CategoryServlet.java&#10;user&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/java/com/lvjing/cms/servlet/UserServlet.java&#10;home.jsp&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/webapp/WEB-INF/views/biz/home.jsp&#10;up&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/webapp/WEB-INF/views/biz/update_canvas.jsp&#10;detail&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/webapp/WEB-INF/views/biz/detail.jsp&#10;update&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/webapp/WEB-INF/views/biz/update_canvas.jsp&#10;de&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/webapp/WEB-INF/views/biz/detail.jsp&#10;Parse&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/java/com/lvjing/cms/util/ParseRequestUtil.java&#10;detail.jsp&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/webapp/WEB-INF/views/biz/detail.jsp&#10;upda&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/webapp/WEB-INF/views/biz/update_canvas.jsp&#10;updatecanva&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/webapp/WEB-INF/views/biz/update_canvas.jsp&#10;userservl&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/java/com/lvjing/cms/servlet/UserServlet.java&#10;canvasser&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/java/com/lvjing/cms/servlet/CanvasServlet.java&#10;canvalist&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/webapp/WEB-INF/views/biz/canvas_list.jsp&#10;categorylist&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/webapp/WEB-INF/views/biz/category_list.jsp&#10;categoryser&#9;FILE&#9;file://D:/IDEAProjects/cms-service/src/main/java/com/lvjing/cms/service/CategoryService.java&#10;canvasSer&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/java/com/lvjing/cms/servlet/CanvasServlet.java&#10;cate&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/java/com/lvjing/cms/filter/CategoryFilter.java&#10;index.js&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/webapp/index.jsp&#10;Userservlet&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/java/com/lvjing/cms/servlet/UserServlet.java&#10;userservice&#9;FILE&#9;file://D:/IDEAProjects/cms-service/src/main/java/com/lvjing/cms/service/UserService.java&#10;UserDao&#9;FILE&#9;file://D:/IDEAProjects/cms-service/src/main/java/com/lvjing/cms/dao/UserDao.java&#10;add&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/webapp/WEB-INF/views/biz/add_canvas.jsp&#10;regis&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/webapp/WEB-INF/views/biz/register.jsp&#10;addca&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/webapp/WEB-INF/views/biz/add_canvas.jsp&#10;categoryservice&#9;FILE&#9;file://D:/IDEAProjects/cms-service/src/main/java/com/lvjing/cms/service/CategoryService.java&#10;categoryDao&#9;FILE&#9;file://D:/IDEAProjects/cms-service/src/main/java/com/lvjing/cms/dao/CategoryDao.java&#10;updat&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/webapp/WEB-INF/views/biz/update_category.jsp&#10;categoryservi&#9;FILE&#9;file://D:/IDEAProjects/cms-service/src/main/java/com/lvjing/cms/service/CategoryService.java&#10;categoryServlet&#9;FILE&#9;file://D:/IDEAProjects/CanvasManageSystem/src/main/java/com/lvjing/cms/servlet/CategoryServlet.java&#10;categorydao&#9;FILE&#9;file://D:/IDEAProjects/cms-service/src/main/java/com/lvjing/cms/dao/CategoryDao.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cms-common/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.1515625" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.webservices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEAProjects\CanvasManageSystem\src\main\webapp\WEB-INF\views\biz" />
+      <recent name="D:\IDEAProjects\CanvasManageSystem\web\WEB-INF" />
+      <recent name="D:\IDEAProjects\cms-common\src\main\resources" />
+      <recent name="D:\IDEAProjects\cms-service\src\main\java\com\lvjing\cms\mapper" />
+      <recent name="D:\IDEAProjects\cms-service\src\main\java\com\lvjing\cms\service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lvjing.cms.filter" />
+      <recent name="com.lvjing.cms.servlet" />
+      <recent name="com.lvjing.cms.mapper" />
+      <recent name="com.lvjing.cms.util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEAProjects\CanvasManageSystem\src\main\webapp\WEB-INF" />
+      <recent name="D:\IDEAProjects\CanvasManageSystem\abandent" />
+      <recent name="D:\IDEAProjects\CanvasManageSystem\src\main\webapp\img" />
+      <recent name="D:\IDEAProjects\CanvasManageSystem\src\main\webapp" />
+      <recent name="D:\IDEAProjects\CanvasManageSystem\src\main\webapp\WEB-INF\cdd" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.local">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="domain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lvjing.cms.domain" />
+      <module name="cms-service" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lvjing.cms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_CanvasManageSystem" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51488" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+    </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="6e76ca0f-33ec-425b-9c3c-5729ae82f70d" />
+                    <id>6e76ca0f-33ec-425b-9c3c-5729ae82f70d</id>
+                  </TransportTarget>
+                </option>
+                <option name="watchedLocalPath" value="" />
+                <watched-path />
+                <name>CONTEXT_XML</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="6e76ca0f-33ec-425b-9c3c-5729ae82f70d" />
+                    <id>6e76ca0f-33ec-425b-9c3c-5729ae82f70d</id>
+                  </TransportTarget>
+                </transport-target>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <option name="stagingRemotePath" value="" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="31bafbfe-afde-47b9-9382-3feb37d5c276" />
+                    <id>31bafbfe-afde-47b9-9382-3feb37d5c276</id>
+                  </TransportTarget>
+                </option>
+                <staging-path />
+                <name>STAGING</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="31bafbfe-afde-47b9-9382-3feb37d5c276" />
+                    <id>31bafbfe-afde-47b9-9382-3feb37d5c276</id>
+                  </TransportTarget>
+                </transport-target>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" value="" />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51489" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_CanvasManageSystem" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54549" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+    </configuration>
+    <configuration name="local" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="CanvasManageSystem:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_CanvasManageSystem" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54549" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CMS" />
+          <artifact name="CanvasManageSystem:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.local" />
+      <item itemvalue="Application.domain" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.domain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b56d1d3-7d1a-4cbe-97d6-a61a3cd14421" name="Default" comment="" />
+      <created>1530159927496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530159927496</updated>
+      <workItem from="1530159932287" duration="27680000" />
+      <workItem from="1530227717583" duration="45138000" />
+      <workItem from="1530316515844" duration="35540000" />
+      <workItem from="1530402851542" duration="33146000" />
+      <workItem from="1530447921834" duration="7295000" />
+      <workItem from="1530524475834" duration="12135000" />
+      <workItem from="1530576690682" duration="11952000" />
+      <workItem from="1530601006902" duration="604000" />
+      <workItem from="1530609243961" duration="5804000" />
+      <workItem from="1530761841285" duration="626000" />
+      <workItem from="1530765520297" duration="1418000" />
+      <workItem from="1530779836365" duration="768000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RegexUtil_testPattern - 2018.06.30 at 10h 52m 11s.xml">
+      <configuration name="RegexUtil.testPattern" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CanvasDao_findCanvas - 2018.07.01 at 17h 03m 36s.xml">
+      <configuration name="CanvasDao.findCanvas" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CanvasDao_findCanvas - 2018.07.01 at 17h 04m 53s.xml">
+      <configuration name="CanvasDao.findCanvas" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CanvasDao_findCanvas - 2018.07.01 at 17h 08m 35s.xml">
+      <configuration name="CanvasDao.findCanvas" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CanvasDao_findCanvas - 2018.07.01 at 17h 11m 42s.xml">
+      <configuration name="CanvasDao.findCanvas" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CanvasDao_findCanvas - 2018.07.01 at 17h 14m 07s.xml">
+      <configuration name="CanvasDao.findCanvas" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CanvasDao_findCanvas - 2018.07.01 at 17h 18m 12s.xml">
+      <configuration name="CanvasDao.findCanvas" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CanvasDao_findCanvas - 2018.07.01 at 17h 19m 40s.xml">
+      <configuration name="CanvasDao.findCanvas" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CanvasDao_findCanvas - 2018.07.01 at 17h 21m 22s.xml">
+      <configuration name="CanvasDao.findCanvas" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CanvasDao_findCanvas - 2018.07.01 at 17h 23m 01s.xml">
+      <configuration name="CanvasDao.findCanvas" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="182106000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1358" y="-8" width="1456" height="876" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50069445" side_tool="true" weight="0.18242344" />
+      <window_info anchor="bottom" id="Application Servers" order="1" weight="0.32756326" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.30416667" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Tail" order="16" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32876712" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24961948" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49930555" weight="0.17576565" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.3282572" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.32756326" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.16644473" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3282572" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4970874" visible="true" weight="0.18402778" />
+      <window_info id="Web" order="0" side_tool="true" />
+      <window_info id="Learn" order="7" weight="0.32980332" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="6" sideWeight="0.50291264" side_tool="true" weight="0.18611111" />
+      <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.3288948" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32756326" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.37549934" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="78" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lvjing/cms/filter/CanvasFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lvjing/cms/filter/EncodeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lvjing/cms/filter/CategoryFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="114" selection-start-line="24" selection-start-column="114" selection-end-line="24" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/biz/add_canvas.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/biz/add_category.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/biz/canvas_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="93" column="14" lean-forward="true" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/biz/canvas_under_category_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="91" column="46" selection-start-line="91" selection-start-column="46" selection-end-line="91" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/biz/category_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/biz/detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1072">
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/biz/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/biz/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/biz/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-808">
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/biz/update_canvas.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/biz/update_category.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="47" column="32" lean-forward="true" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error/404.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error/500.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1032">
+          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/basePath.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cms-common/src/main/java/com/lvjing/cms/entity/Canvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cms-common/src/main/java/com/lvjing/cms/entity/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cms-common/src/main/java/com/lvjing/cms/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cms-common/src/main/java/com/lvjing/cms/util/RegexUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cms-service/src/main/java/com/lvjing/cms/dao/CategoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cms-service/src/main/java/com/lvjing/cms/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="66" column="30" lean-forward="true" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cms-service/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cms-service/src/main/java/com/lvjing/cms/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cms-service/src/main/java/com/lvjing/cms/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cms-service/src/test/java/TestThreadLocal.java" />
+    <entry file="file://$PROJECT_DIR$/../cms-service/src/test/java/com/lvjing/cms/domain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cms-service/src/test/java/com/lvjing/cms/TestThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cms-service/src/test/java/com/lvjing/cms/TestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="158" column="13" selection-start-line="158" selection-start-column="13" selection-end-line="158" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cms-service/src/main/java/com/lvjing/cms/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cms-service/src/main/java/com/lvjing/cms/mapper/CategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cms-service/src/main/java/com/lvjing/cms/mapper/CanvasMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2544">
+          <caret line="110" column="26" selection-start-line="110" selection-start-column="26" selection-end-line="110" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cms-service/src/main/java/com/lvjing/cms/service/CanvasService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cms-service/src/main/java/com/lvjing/cms/dao/CanvasDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cms-service/src/main/java/com/lvjing/cms/util/JDBCUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lvjing/cms/util/Requestutil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lvjing/cms/servlet/CanvasServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lvjing/cms/servlet/CategoryServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="74" column="33" lean-forward="true" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lvjing/cms/servlet/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="83" column="44" lean-forward="true" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lvjing/cms/servlet/IndexServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lvjing/cms/listener/LoadResourceListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/css/add.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cms-service/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="140" column="22" selection-start-line="140" selection-start-column="22" selection-end-line="140" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>CMS</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CanvasManageSystem</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: commons-fileupload:commons-fileupload:1.3.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

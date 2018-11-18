@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--&lt;!&ndash;配置HandlerMapping,将url请求映射到Handler&ndash;&gt;
+    <bean id="myHandler" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+         &lt;!&ndash;配置mapping&ndash;&gt;
+         <property name="mappings">
+             <props>
+                 <prop key="/test">testHandler</prop>
+             </props>
+         </property>
+    </bean>
+
+    &lt;!&ndash;配置Handler&ndash;&gt;
+    <bean id="testHandler" class="com.lvjing.mvc.controller.MyHandler"/>-->
+
+    <!--将AnnotationHandler自动扫描到IOC容器中-->
+    <context:component-scan base-package="com.lvjing.mvc"/>
+
+    <!--配置视图解析器-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!--前缀-->
+        <property name="prefix" value="/"/>
+        <!--后缀-->
+        <property name="suffix" value=".jsp"/>
+    </bean>
+</beans>

@@ -1,0 +1,24 @@
+#server
+server:
+  servlet:
+    context-path: /si
+  port: 80
+#log
+debug: false
+logging:
+  file: D:/app2.log
+  level: [error,warn]
+
+#datasource
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.1.6:3306/test
+    username: root
+    password: 20180226
+
+#自定义配置项
+app:
+ author-name: lvjing
+ create-date: 2018-07-25
+ environment: 生产环境

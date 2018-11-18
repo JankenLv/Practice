@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$USER_HOME$/Desktop/IO文件/jdbc/lib/mysql-connector-java-5.1.7-bin.jar!/" />
+    <libelement value="jar://$USER_HOME$/Desktop/IO文件/jdbc/lib/c3p0-0.9.1.2.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$USER_HOME$/Desktop/IO文件/jdbc/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$USER_HOME$/Desktop/IO文件/jdbc/bin" />
+    <content url="file://$USER_HOME$/Desktop/IO文件/jdbc">
+      <sourceFolder url="file://$USER_HOME$/Desktop/IO文件/jdbc/src" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/Desktop/IO文件/jdbc/bin" type="java-resource" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="module-library" exported="">
+      <library name="mysql-connector-java-5.1.7-bin.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/IO文件/jdbc/lib/mysql-connector-java-5.1.7-bin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="c3p0-0.9.1.2.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/IO文件/jdbc/lib/c3p0-0.9.1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="junit4">
+        <CLASSES>
+          <root url="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

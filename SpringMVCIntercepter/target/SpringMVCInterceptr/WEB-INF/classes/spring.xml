@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/mvc
+	   http://www.springframework.org/schema/mvc/spring-mvc.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--自动扫描-->
+    <context:component-scan base-package="com.lvjing.it"/>
+
+    <!--视图解析器-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/views/biz/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!--消息转换器编码-->
+    <mvc:annotation-driven conversion-service="conversionService">
+        <mvc:message-converters>
+            <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                <property name="supportedMediaTypes" value="application/plain;charset=UTF-8"/>
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
+
+    <!--字符串转日期-->
+    <bean id="conversionService"
+          class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+        <property name="formatters">
+            <set>
+                <bean class="com.lvjing.it.util.MyDateFormatter"/>
+            </set>
+        </property>
+       <!-- <property name="registerDefaultFormatters" value="false"/>
+        <property name="formatters">
+            <set>
+                <bean class="org.springframework.format.number.NumberFormatAnnotationFormatterFactory"/>
+            </set>
+        </property>
+        <property name="formatterRegistrars">
+            <set>
+                <bean class="org.springframework.format.datetime.DateFormatterRegistrar">
+                    <property name="formatter">
+                        <bean class="org.springframework.format.datetime.DateFormatter">
+                            <property name="pattern" value="yyyy-MM-dd"/>
+                        </bean>
+                    </property>
+                </bean>
+                <bean class="org.springframework.format.datetime.joda.JodaTimeFormatterRegistrar">
+                    <property name="dateFormatter">
+                        <bean class="org.springframework.format.datetime.joda.DateTimeFormatterFactory">
+                            <property name="pattern" value="yyyy-MM-dd"/>
+                        </bean>
+                    </property>
+                    <property name="dateTimeFormatter">
+                        <bean class="org.springframework.format.datetime.joda.DateTimeFormatterFactory">
+                            <property name="pattern" value="yyyy-MM-dd hh:mm:ss"/>
+                        </bean>
+                    </property>
+                </bean>
+            </set>
+        </property>-->
+    </bean>
+
+    <!--拦截器-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/emp"/>
+            <mvc:mapping path="/emp/*"/>
+            <mvc:mapping path="/emp/**"/>
+            <bean class="com.lvjing.it.interceptor.LoginInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
+</beans>

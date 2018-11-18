@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/DatabasePractice/demo2/lib/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DatabasePractice/demo2/lib/c3p0-0.9.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DatabasePractice/demo2/lib/mysql-connector-java-5.1.7-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DatabasePractice/demo2/lib/mchange-commons-java-0.2.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

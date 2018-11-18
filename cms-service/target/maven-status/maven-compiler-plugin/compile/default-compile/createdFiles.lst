@@ -1,0 +1,8 @@
+com\lvjing\cms\service\CategoryService.class
+com\lvjing\cms\dao\CategoryDao.class
+com\lvjing\cms\service\UserService.class
+com\lvjing\cms\dao\CanvasDao.class
+com\lvjing\cms\service\CanvasService.class
+com\lvjing\cms\mapper\UserMapper.class
+com\lvjing\cms\util\JDBCUtil.class
+com\lvjing\cms\dao\UserDao.class

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+
+
+<#include "./common/header.html">
+
+
+<script type="text/javascript">
+    function login(){
+        $('#loginTitle').css('color','#337Ab7');
+        $('#loginForm').show();
+        $('#registeTitle').css('color','#000');
+        $('#registeForm').hide();
+    }
+    function registe(){
+        $('#loginTitle').css('color','#000');
+        $('#loginForm').hide();
+        $('#registeTitle').css('color','#337Ab7');
+        $('#registeForm').show();
+    }
+
+    $(function(){
+        $("#userdetail").popover({
+            trigger:'manual',
+            placement : 'bottom',
+            html: 'true',
+            content : '<div style="width:300px;height:300px;"></div>',
+            animation: false
+        }).on("mouseenter", function () {
+            var _this = this;
+            $(this).popover("show");
+            $(this).siblings(".popover").on("mouseleave", function () {
+                $(_this).popover('hide');
+            });
+        }).on("mouseleave", function () {
+            var _this = this;
+            setTimeout(function () {
+                if (!$(".popover:hover").length) {
+                    $(_this).popover("hide")
+                }
+            }, 0);
+        });
+
+        //菜单
+        $(".category").popover({
+            trigger:'manual',
+            placement : 'right',
+            html: 'true',
+            content : '',
+            animation: false
+        }).on("mouseenter", function () {
+            var cid = $(this).attr('c-id');
+            $('#' + cid).show();
+            $('#' + cid).hover(function(){
+                $('#' + cid).show();
+            },function(){
+                $('#' + cid).hide();
+            });
+        }).on("mouseleave", function () {
+            var cid = $(this).attr('c-id');
+            $('#' + cid).hide();
+        });
+    });
+</script>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog"  style="position:fixed; top:30%;">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" style="font-size:18px;">×</span>
+                </button>
+                <h4 class="modal-title"  id="loginTitle"  style="float: left; color: #337Ab7;cursor: pointer; " onclick="login();">登 录</h4>
+                <h4 class="modal-title"  id="registeTitle"  style="float: left;margin-left: 20px;cursor: pointer;" onclick="registe();">注 册</h4>
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="modal-body">
+                <form id="loginForm" class="form-horizontal" style="padding: 0px 20px;">
+                    <div class="form-group">
+                        <input type="email" class="form-control"  id="username"  placeholder="用户名">
+                    </div>
+                    <div class="form-group help">
+                        <input type="password" class="form-control"  id="password"  placeholder="密　码">
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" value="None" id="checkbox1" name="check">
+                            <span class="text" style="color: #787D82;font-size: 14px;">下次自动登录</span>
+                        </label>
+                    </div>
+
+                    <a href="javascript:void(0)">
+                        <div class="header-login-btn">登 录</div>
+                    </a>
+                </form>
+
+                <form id="registeForm" class="form-horizontal" style="padding: 0px 20px;display: none;">
+                    <div class="form-group">
+                        <input type="email" class="form-control"  id="username"  placeholder="用户名">
+                    </div>
+                    <div class="form-group help">
+                        <input type="password" class="form-control"  id="password"  placeholder="密　码">
+                    </div>
+                    <a href="javascript:void(0)">
+                        <div class="header-login-btn">注 册</div>
+                    </a>
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="f-main">
+    <div class="clearfix">
+        <div class=main-category>
+
+            <!--轮播start-->
+            <div class="main-bg">
+                <#if carousel?? && carousel?size gt 0>
+                <#list carousel as item>
+                <div class="main-bg-item main-bg-item-${item.id}">
+                    <div class="main-title-${item.id}">
+                        <img src="${item.picture}"/>
+                    </div>
+                </div>
+                </#list>
+                </#if>
+            </div>
+            <!--轮播end-->
+            <!--轮播按钮start-->
+            <div class="f-nav-box">
+                <div class="bg-nav">
+                    <#if carousel?? && carousel?size gt 0>
+                    <#list carousel as item>
+                    <#if item?counter == 1>
+                        <a class="cur"></a>
+                    <#else>
+                        <a></a>
+                    </#if>
+                    </#list>
+                    </#if>
+                </div>
+            </div>
+            <!--轮播按钮end-->
+
+            <!--一级目录start-->
+            <div class="main-category-menu"  style="overflow: hidden;">
+                <#if classify?? && classify?size gt 0>
+                <#list classify as item>
+                <div class="category" c-id="${item.code}">
+                    <a><div class="group">${item.name}</div></a>
+                </div>
+                </#list>
+                </#if>
+            </div>
+            <!--一级目录end-->
+
+            <!--二级目录start-->
+            <#if classify?? && classify?size gt 0>
+            <#list classify as item>
+            <#if item.subClassify?? && item.subClassify?size gt 0>
+            <div class="main-category-submenu-content"  id="${item.code}">
+            <#list item.subClassify as sub>
+                <a style="cursor: pointer;font-size: 1.3em;display: inline;" href="">${sub.name}&nbsp;/&nbsp;</a>
+            </#list>
+            </div>
+            </#if>
+            </#list>
+            </#if>
+            <!--二级目录end-->
+
+        </div>
+    </div>
+
+    <div class="types-block clearfix">
+        <h3 class="types-title">实战推荐</h3>
+        <div class="types-content">
+
+            <#if courses?? && courses?size gt 0>
+            <#list courses.payCourses as course>
+            <a href="">
+                <#if course?counter % 5 == 0>
+                <div class="course-card-container" style="margin:0;">
+                <#else>
+                <div class="course-card-container">
+                </#if>
+                    <div class="course-card-top green-bg">
+                        <span>${course.name}</span>
+                    </div>
+
+                    <div class="course-card-content">
+                        <h3 class="course-card-name">${course.name}</h3>
+                        <p title="${course.brief}">${course.brief}</p>
+                        <div class="course-card-bottom">
+                            <div class="course-card-info">${course.studyCount}人在学</div>
+                            <div class="course-card-price">￥${course.price}</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            </#list>
+            </#if>
+
+        </div>
+    </div>
+
+
+    <div class="types-block clearfix">
+        <h3 class="types-title">免费好课</h3>
+        <div class="types-content">
+
+            <#if courses?? && courses?size gt 0>
+            <#list courses.freeCourses as course>
+            <a href="">
+                <#if course?counter % 5 == 0>
+                <div class="course-card-container" style="margin:0;">
+                <#else>
+                <div class="course-card-container">
+                </#if>
+                    <div class="course-card-top green-bg">
+                        <span>${course.classifyName}</span>
+                    </div>
+
+                    <div class="course-card-content">
+                        <h3 class="course-card-name">${course.name}</h3>
+                        <p title="${course.brief}">${course.brief}</p>
+                        <div class="course-card-bottom">
+                            <div class="course-card-info"><#if course.level == 1>初级</#if><#if course.level == 2>中级</#if><#if course.level == 3>高级</#if><span>·</span>${course.studyCount}人在学</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            </#list>
+            </#if>
+
+        </div>
+
+    </div>
+
+    <div class="types-block clearfix">
+        <h3 class="types-title">Java开发工程师</h3>
+
+        <div class="types-content-left "
+             style="background-image: url(http://img.mukewang.com/58ac18fd00012a4202240348.jpg);">
+            <div class="course-card-container-fix">
+                <div class="course-card-content">
+                    <h3 class="course-card-name">Java职业路径</h3>
+                    <p class="color-fff" title="带你研究Java技术框架">带你研究Java技术框架，系统地学习java技术</p>
+                    <div class="course-card-bottom" style="margin-top: 50px;">
+                        <div class="course-card-info color-fff">了解详情 →</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="types-content-right ">
+            <div class="types-content-banner ">
+                <a target="_blank" href="http://coding.imooc.com/class/81.html">
+                    <div class="types-content-banner-block green-bg"  style="margin-right:20px;" >
+                        Spring框架实战讲解！
+                    </div>
+                </a>
+                <a target="_blank" href="http://coding.imooc.com/class/76.html">
+                    <div class="types-content-banner-block gray-bg"  >
+                        MyBatis框架实战讲解！
+                    </div>
+                </a>
+            </div>
+
+            <div class="clearfix">
+                <a href="">
+                    <div class="course-card-container">
+                        <div class="course-card-top green-bg">
+                            <span>测试</span>
+                        </div>
+
+                        <div class="course-card-content">
+                            <h3 class="course-card-name">Android自动化测试实战 工具 框架 脚本</h3>
+                            <p title="找Android自动化测试工作必学的主流工具、框架和自动化脚本">找Android自动化测试工作必学的主流工具、框架和自动化脚本</p>
+                            <div class="course-card-bottom">
+                                <div class="course-card-info">
+                                    初级<span>·</span>178人在学
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="course-card-container">
+                        <div class="course-card-top pink-bg">
+                            <span>WebApp</span>
+                        </div>
+                        <div class="course-card-content">
+                            <h3 class="course-card-name">AngularJS仿拉勾网WebApp 开发移动端单页应用</h3>
+                            <p title="基于AngularJS，仿拉勾网开发一个招聘类的移动端单页应用">基于AngularJS，仿拉勾网开发一个招聘类的移动端单页应用</p>
+                            <div class="clearfix course-card-bottom">
+                                <div class="course-card-info">
+                                    初级<span>·</span>3444人在学
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <div class="course-card-container">
+                    <div class="course-card-top brown-bg">
+                        <span>Django</span>
+                    </div>
+
+                    <div class="course-card-content">
+                        <h3 class="course-card-name">强力django杀手级xadmin 打造上线标准的在线教育平台</h3>
+                        <p title="全面掌握django框架,轻松应对python web开发工作">全面掌握django框架,轻松应对python
+                            web开发工作</p>
+                        <div class="clearfix course-card-bottom">
+                            <div class="course-card-info">
+                                初级<span>·</span>4888人在学
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card-container" style="margin-right: 0px;">
+                    <div class="course-card-top purple-bg">
+                        <span>Python</span>
+                    </div>
+
+                    <div class="course-card-content">
+                        <h3 class="course-card-name">Python高级编程技巧实战</h3>
+                        <p title="精选50个python训练任务，提升实战技能与高效编程技巧">精选50个python训练任务，提升实战技能与高效编程技巧</p>
+                        <div class="clearfix course-card-bottom">
+                            <div class="course-card-info">
+                                高级<span>·</span>81333人在学
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--讲师start-->
+    <div class="types-block clearfix">
+        <h3 class="types-title">名校讲师</h3>
+
+        <#if teacher?? && teacher?size gt 0>
+        <#list teacher as item>
+        <a href="">
+            <#if item?counter % 5 == 0 >
+            <div class="lecturer-card-container" style="margin: 0;">
+            <#else>
+            <div class="lecturer-card-container">
+            </#if>
+                <div class="lecturer-item">
+                    <img class="lecturer-uimg" src="${s.base}/i/header.jpg">
+                    <span class="lecturer-name">${item.realname}</span>
+                    <span class="lecturer-title">${item.collegeName}</span>
+                    <span class="lecturer-p" >${item.collegeName}${item.title},&nbsp;${item.sign}</span>
+                </div>
+            </div>
+        </a>
+        <#if item?counter == 5 >
+            <#break>
+        </#if>
+        </#list>
+        </#if>
+
+    </div>
+    <!--讲师end-->
+
+</div>
+
+
+<#include "./common/footer.html">
+
+
+</body>
+
+<script>
+    $(function(){
+        var index = 0;
+        var timer = 4000;
+        $('.bg-nav a').click(function(){
+            index = $('.bg-nav a').index($(this));
+            rollBg(index);
+        });
+        $('.index-roll-item').click(function(){
+            index = $('.index-roll-item').index($(this));
+            rollBg(index);
+        });
+        var rollBg = function(i){
+            $('.main-bg-item').fadeOut(1000);
+            $($('.main-bg-item')[i]).fadeIn(1000);
+            $('.bg-nav a').removeClass('cur');
+            $($('.bg-nav a')[i]).addClass('cur');
+            $('.index-roll-item').removeClass('cur');
+            $($('.index-roll-item')[i]).addClass('cur');
+        };
+        setInterval(function(){
+            index += 1;
+            index = index%"${carousel?size}";
+            rollBg(index);
+        }, timer);
+
+    });
+</script>
+</html>
+

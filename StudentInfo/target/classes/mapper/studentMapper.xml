@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace 命名空间
+通常情况下，命名空间的值，就是当前操作实体类的全名称
+-->
+<mapper namespace="com.damu.entity.Student">
+
+    <select id="getStudent" resultType="com.damu.entity.Student">
+        select * from student
+        <if test="id != null">
+            where id = #{id}
+        </if>
+    </select>
+
+
+
+    <select id="findCourses" resultMap="courseResultMap">
+        select * from mytest.course
+        <where>
+            <if test="id != null">
+                id = #{id}
+            </if>
+        </where>
+    </select>
+
+    <resultMap id="courseResultMap" type="Course">
+        <id property="id" column="id"/>
+        <result property="courseID" column="courseid" />
+        <result property="majorName" column="major_name" />
+        <result property="courseName" column="courname" />
+        <result property="courseTime" column="courtime" />
+        <result property="courseTeacher" column="courteacher" />
+    </resultMap>
+
+
+
+
+    <!--联合查询-->
+    <select id="findStudentAndCourse" resultMap="assoStudentMap">
+        select * from mytest.student AS s left outer join mytest.course AS c on s.major = c.major_name
+        <where>
+            <if test="id != null">
+                s.id = #{id}
+            </if>
+            <if test="major != null">
+                major = #{major}
+            </if>
+        </where>
+    </select>
+
+    <resultMap id="assoStudentMap" type="Student">
+        <id property="id" column="id"/>
+        <result property="major" column="major"/>
+        <result property="reg_no" column="reg_no"/>
+        <result property="name" column="name"/>
+        <result property="sex" column="sex"/>
+        <result property="age" column="age"/>
+        <result property="grade" column="grade"/>
+        <!--<result property="major" column="major"/>-->
+        <association property="course" column="major" resultMap="assoCourseMap" javaType="Course"/>
+    </resultMap>
+
+    <!--<select id="assoCourseMap" resultMap="assoCourse">
+        select * from mytest.course where major_name = #{id}
+    </select>-->
+
+    <resultMap id="assoCourseMap" type="Course">
+        <id property="id" column="id"/>
+        <result property="courseID" column="courseid" />
+        <result property="majorName" column="major_name" />
+        <!--<result property="majorName" column="major_name" />-->
+        <result property="courseName" column="courname" />
+        <result property="courseTime" column="courtime" />
+        <result property="courseTeacher" column="courteacher" />
+    </resultMap>
+
+
+
+
+
+
+    <!--联合查询2-->
+    <!--<select id="findStudentWithCourse" resultMap="StudentWithCourseMap">
+        select
+        s.id as s_id,
+        s.reg_no as s_reg_no,
+        s.name as s_name,
+        s.sex as s_sex,
+        s.age as s_age,
+        s.grade as s_grade,
+        s.major as s_major,
+        c.courname as c_courname,
+        c.courtime as c_courtime,
+        c.courteacher as c_courteacher
+        from mytest.student AS s left outer join mytest.course AS c on s.major = c.major_name
+        <where>
+            <if test="id != null">
+                s.id = #{id}
+            </if>
+            <if test="major != null">
+                major = #{major}
+            </if>
+        </where>
+    </select>
+
+    <resultMap id="StudentWithCourseMap" type="Student">
+        <id property="id" column="s_id"/>
+        <result property="reg_no" column="s_reg_no"/>
+        <result property="name" column="s_name"/>
+        <result property="sex" column="s_sex"/>
+        <result property="age" column="s_age"/>
+        <result property="grade" column="s_grade"/>
+        <result property="major" column="s_major"/>
+        &lt;!&ndash;<result property="major" column="major"/>&ndash;&gt;
+        &lt;!&ndash;<association property="course" column="major" resultMap="assoCourseMap" javaType="Course">&ndash;&gt;
+        <association property="course" javaType="Course">
+            &lt;!&ndash;<id property="id" column="id"/>&ndash;&gt;
+            &lt;!&ndash;<result property="courseID" column="courseid" />&ndash;&gt;
+            &lt;!&ndash;<result property="majorName" column="major_name" />&ndash;&gt;
+            <id property="courseName" column="c_courname" />
+            <result property="courseTime" column="c_courtime" />
+            <result property="courseTeacher" column="c_courteacher" />
+        </association>
+    </resultMap>-->
+
+
+
+
+
+    <!--联合查询3-->
+
+    <sql id="thirdSQL">
+        s.id as s_id,
+        s.reg_no as s_reg_no,
+        s.name as s_name,
+        s.sex as s_sex,
+        s.age as s_age,
+        s.grade as s_grade,
+        s.major as s_major,
+        c.courname as c_courname,
+        c.courtime as c_courtime,
+        c.courteacher as c_courteacher
+    </sql>
+
+    <select id="findStudentWithCourse" resultMap="StudentWithCourseMap">
+        select
+          <include refid="thirdSQL"/>
+        from mytest.student AS s left outer join mytest.course AS c on s.major = c.major_name
+        <where>
+            <if test="id != null">
+                s.id = #{id}
+            </if>
+            <if test="major != null">
+                major = #{major}
+            </if>
+        </where>
+    </select>
+
+    <resultMap id="StudentWithCourseMap" type="StudentWithCourse">
+        <id property="id" column="s_id"/>
+        <result property="reg_no" column="s_reg_no"/>
+        <result property="name" column="s_name"/>
+        <result property="sex" column="s_sex"/>
+        <result property="age" column="s_age"/>
+        <result property="grade" column="s_grade"/>
+        <result property="major" column="s_major"/>
+        <!--<result property="major" column="major"/>-->
+        <!--<association property="course" column="major" resultMap="assoCourseMap" javaType="Course">-->
+        <!--<association property="course" javaType="Course">-->
+            <!--<id property="id" column="id"/>-->
+            <!--<result property="courseID" column="courseid" />-->
+            <!--<result property="majorName" column="major_name" />-->
+            <result property="courseName" column="c_courname" />
+            <result property="courseTime" column="c_courtime" />
+            <result property="courseTeacher" column="c_courteacher" />
+        <!--</association>-->
+    </resultMap>
+
+
+
+
+
+
+
+    <sql id="newStudent_fields">
+        reg_no,name,sex,age,grade,major
+    </sql>
+
+    <insert id="addStudent" useGeneratedKeys="true" keyProperty="id">
+--         insert into student(reg_no,name,sex,age,grade,major)
+        insert into student(<include refid="newStudent_fields"/>)
+        value(#{reg_no},#{name},#{sex},#{age},#{grade},#{major})
+    </insert>
+
+    <update id="modifyStudent" useGeneratedKeys="true" keyProperty="id">
+        update mytest.student
+        <set>
+            <if test="reg_no != null">
+                reg_no = #{reg_no},
+            </if>
+            <if test="name != null">
+                name = #{name},
+            </if>
+            <if test="sex != null">
+                sex = #{sex},
+            </if>
+            <if test="age != null">
+                age = #{age},
+            </if>
+            <if test="grade != null">
+                grade = #{grade},
+            </if>
+            <if test="major != null">
+                major = #{major}
+            </if>
+            where id = #{id}
+        </set>
+    </update>
+
+    <delete id="delStudent">
+        delete from mytest.student
+        <trim prefix="where" prefixOverrides="and |or " suffixOverrides=",">
+            <if test="id != null">
+                id = #{id},
+            </if>
+            <if test="reg_no != null">
+                and reg_no = #{reg_no},
+            </if>
+            <if test="name != null">
+                and name = #{name},
+            </if>
+            <if test="sex != null">
+                and sex = #{sex},
+            </if>
+            <if test="age != null">
+                and age = #{age},
+            </if>
+            <if test="grade != null">
+                and grade = #{grade},
+            </if>
+            <if test="major != null">
+                and major = #{major}
+            </if>
+        </trim>
+    </delete>
+
+</mapper>

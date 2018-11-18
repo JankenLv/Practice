@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.random.lottery.mapper.MemberAttendanceRateTMapper" >
+  <resultMap id="BaseResultMap" type="com.random.lottery.model.MemberAttendanceRateT" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="member_id" property="memberId" jdbcType="INTEGER" />
+    <result column="name_cn" property="nameCn" jdbcType="VARCHAR" />
+    <result column="name_en" property="nameEn" jdbcType="VARCHAR" />
+    <result column="id_type" property="idType" jdbcType="VARCHAR" />
+    <result column="id_code" property="idCode" jdbcType="VARCHAR" />
+    <result column="ar_value" property="arValue" jdbcType="DECIMAL" />
+    <result column="DSEJ_ar_value" property="dsejArValue" jdbcType="DECIMAL" />
+    <result column="ID_ar_value" property="idArValue" jdbcType="DECIMAL" />
+    <result column="created_user_id" property="createdUserId" jdbcType="INTEGER" />
+    <result column="create_date" property="createDate" jdbcType="TIMESTAMP" />
+    <result column="updated_user_id" property="updatedUserId" jdbcType="INTEGER" />
+    <result column="update_date" property="updateDate" jdbcType="TIMESTAMP" />
+    <result column="status" property="status" jdbcType="TINYINT" />
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    id, member_id, name_cn, name_en, id_type, id_code, ar_value, DSEJ_ar_value, ID_ar_value, 
+    created_user_id, create_date, updated_user_id, update_date, status
+  </sql>
+
+  <!-- 获取会员出勤率列表 -->
+  <select id="selectAll" resultType="MemberAttendanceRateT">
+    select
+      *
+    from
+      member_attendance_rate_t
+  </select>
+
+  <!-- 批量更新会员ID -->
+  <insert id="updateMemberId" parameterType="map">
+    insert into
+      member_attendance_rate_t
+      (
+      id,
+      member_id
+      )
+    values
+      <foreach collection="data" index="key" item="value" separator=",">
+        (#{key},#{value})
+      </foreach>
+    on duplicate key update member_id=values(member_id)
+  </insert>
+
+  <!-- 获取所有会员 -->
+  <select id="getAllMemberId" resultType="int">
+        SELECT
+    		member_id
+        FROM
+        	member_attendance_rate_t
+        order by ar_value desc
+  </select>
+
+  <!-- 获取出勤率统计列表 -->
+  <select id="getAttendanceRateCount" resultType="int">
+    	select
+    		count(ar_value)
+    	from
+    		member_attendance_rate_t
+    	group by ar_value desc
+  </select>
+
+</mapper>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--配置目标类-->
+    <bean id="foodDao" class="com.lvjing.beanNamesAutoProxy.FoodDao"/>
+    <bean id="carDao" class="com.lvjing.beanNamesAutoProxy.CarDao"/>
+
+    <!--配置通知-->
+    <bean id="myBeforeAdvice" class="com.lvjing.beanNamesAutoProxy.MyAdviceBefore"/>
+    
+    <!--环绕通知-->
+    <bean id="myRoundAdvice" class="com.lvjing.beanNamesAutoProxy.MyRoundAdvisor"/>
+
+    <!--配置切面的切点-->
+    <bean id="myPointCut" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+        <property name="advice" value="myRoundAdvice"/>
+        <property name="pattern" value=".*addCar.*"/>
+    </bean>
+
+    <!--根据Advisor本身包含信息配置自动代理-->
+    <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"/>
+    
+    
+    
+    <!--基于Bean名称配置自动代理-->
+    <!--<bean class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+        <property name="beanNames" value="*Dao"/>
+        <property name="interceptorNames" value="myBeforeAdvice"/>
+        <property name="proxyTargetClass" value="true"/>
+    </bean>-->
+</beans>

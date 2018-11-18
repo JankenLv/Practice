@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <properties resource="jdbc.properties"/>
+
+    <typeAliases>
+        <typeAlias type="com.damu.entity.Course" alias="Course"/>
+        <typeAlias type="com.damu.entity.Student" alias="Student"/>
+        <typeAlias type="com.damu.entity.StudentWithCourse" alias="StudentWithCourse"/>
+    </typeAliases>
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <!--使用数据库连接池-->
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+<!--
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/mytest?useUnicode=true&amp;characterEncoding=UTF-8"/>
+                <property name="username" value="root"/>
+                <property name="password" value="20180226"/>
+-->
+            </dataSource>
+        </environment>
+    </environments> <!--映射配置文件的路径-->
+
+    <mappers>
+        <mapper resource="mapper/studentMapper.xml"/>  <!-- xml格式映射文件 -->
+        <package name="com.damu.mapper"/>   <!-- 接口格式映射器 -->
+    </mappers>
+
+
+</configuration>

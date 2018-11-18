@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf引擎</title>
+</head>
+<body>
+<center>
+    <h1 th:each="dep : ${deps}"
+        th:text="${dep.address}"
+        >
+        department's name will show here
+    </h1>
+</center>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.4//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lvjing.sm.dao.LogDao">
+    <resultMap id="resultMap" type="Log">
+        <result column="opr_time" property="oprTime" javaType="java.util.Date"/>
+        <result column="type" property="type" javaType="String"/>
+        <result column="operator" property="operator" javaType="String"/>
+        <result column="moudle" property="moudle" javaType="String"/>
+        <result column="operation" property="operation" javaType="String"/>
+        <result column="result" property="result" javaType="String"/>
+    </resultMap>
+
+    <insert id="insert" parameterType="Log">
+        insert into log values(#{oprTime}, #{type},#{operator},#{moudle},#{operation},#{result})
+    </insert>
+
+    <select id="selectByType" resultMap="resultMap" parameterType="String">
+        select * from log where type = #{type} order by opr_time desc
+    </select>
+</mapper>

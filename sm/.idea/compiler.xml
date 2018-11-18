@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bm_common" />
+        <module name="bm_operation" />
+        <module name="bm_portal" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hd" target="1.5" />
+      <module name="hd_common" target="1.5" />
+      <module name="hd_portal" target="1.5" />
+      <module name="hd_service" target="1.7" />
+      <module name="mybatis" target="1.5" />
+      <module name="sm" target="1.5" />
+      <module name="sm_service" target="1.5" />
+      <module name="sm_web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

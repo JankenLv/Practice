@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="devsp" />
+        <module name="ExportCSVWithBOM" />
+        <module name="lottery" />
+        <module name="SpringBootToWar" />
+        <module name="xdclass" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CustomTypeHandler" target="1.8" />
+      <module name="devsp" target="1.8" />
+      <module name="ExportCSVWithBOM" target="1.8" />
+      <module name="lottery" target="1.8" />
+      <module name="SpringBootToWar" target="1.8" />
+      <module name="xdclass" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

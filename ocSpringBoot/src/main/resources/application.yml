@@ -1,0 +1,54 @@
+
+
+#server
+server:
+  port: 8080
+
+
+#datasource
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ocdb?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: 20180226
+
+
+#freemarker
+  freemarker:
+    charset: UTF-8
+    content-type: text/html
+    suffix: .html
+    template-loader-path: classpath:/templates/
+    settings:
+      default_encoding: UTF-8
+      date_format: yyyy-MM-dd
+      time_format: HH:mm:ss
+      datetime_format: yyyy-MM-dd HH:mm:ss
+      auto_import: freemarker.ftl as s
+
+
+#mybatis
+mybatis:
+  type-aliases-package: com.oc.boot.portal.bean
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
