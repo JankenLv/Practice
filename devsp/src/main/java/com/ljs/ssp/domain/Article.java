@@ -17,7 +17,7 @@ public class Article implements Serializable {
 
     private long id;
 
-    private String tile;
+    private String title;
 
     private String summary;
 
@@ -33,12 +33,12 @@ public class Article implements Serializable {
         this.id = id;
     }
 
-    public String getTile() {
-        return tile;
+    public String getTitle() {
+        return title;
     }
 
-    public void setTile(String tile) {
-        this.tile = tile;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public String getSummary() {
@@ -63,5 +63,16 @@ public class Article implements Serializable {
 
     public void setPv(int pv) {
         this.pv = pv;
+    }
+
+    @Override
+    public String toString() {
+        return "Article{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", summary='" + summary + '\'' +
+                ", content='" + content + '\'' +
+                ", pv=" + pv +
+                '}';
     }
 }
