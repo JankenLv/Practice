@@ -10,8 +10,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Iterator;
-
 /**
  * 功能描述：Article控制器
  *
@@ -32,7 +30,7 @@ public class ArticleController {
         article.setPv(888);
         article.setContent("this is 主要内容");
         article.setSummary("this is 概要内容");
-        article.setTile("love xd class");
+        article.setTitle("love xd class");
         repository.save(article);
 
         return JsonData.buildSuccess();
@@ -40,15 +38,12 @@ public class ArticleController {
 
     @GetMapping("search")
     public Object find(String title) {
-        QueryBuilder queryBuilder = QueryBuilders.matchQuery("title", title);
+        QueryBuilder queryBuilder = QueryBuilders.matchQuery("tile", title);
         Iterable<Article> articles = repository.search(queryBuilder);
 
-        Iterator<Article> iterator = articles.iterator();
-        if (iterator.hasNext()) {
-            return JsonData.buildSuccess(iterator.next());
-        }
+        articles.forEach(article -> System.out.println("打印内容：" + article.toString()));
 
-        return JsonData.buildSuccess("没有东西！");
+        return JsonData.buildSuccess(articles);
     }
 
 }
