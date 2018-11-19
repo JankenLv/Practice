@@ -3,11 +3,14 @@ package com.ljs.ssp.controller;
 import com.ljs.ssp.domain.Article;
 import com.ljs.ssp.domain.JsonData;
 import com.ljs.ssp.repository.ArticleRepository;
+import org.elasticsearch.index.query.QueryBuilder;
+import org.elasticsearch.index.query.QueryBuilders;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.Iterator;
 
 /**
  * 功能描述：Article控制器
@@ -33,6 +36,19 @@ public class ArticleController {
         repository.save(article);
 
         return JsonData.buildSuccess();
+    }
+
+    @GetMapping("search")
+    public Object find(String title) {
+        QueryBuilder queryBuilder = QueryBuilders.matchQuery("title", title);
+        Iterable<Article> articles = repository.search(queryBuilder);
+
+        Iterator<Article> iterator = articles.iterator();
+        if (iterator.hasNext()) {
+            return JsonData.buildSuccess(iterator.next());
+        }
+
+        return JsonData.buildSuccess("没有东西！");
     }
 
 }
