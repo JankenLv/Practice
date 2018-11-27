@@ -17,7 +17,7 @@ import javax.jms.Destination;
  * <p> @创建时间: 2018/11/22 0:01 </p>
  */
 @RestController
-@RequestMapping("api/v1")
+@RequestMapping("api/v1/atMQ")
 public class OrderController {
 
     @Autowired
@@ -41,6 +41,5 @@ public class OrderController {
         producerService.sendMessage(msg);
         return JsonData.buildSuccess();
     }
-
 
 }

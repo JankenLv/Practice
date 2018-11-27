@@ -1,7 +1,5 @@
 package com.ljs.jms.demo.service;
 
-import org.springframework.stereotype.Component;
-
 import javax.jms.Destination;
 
 /**
@@ -10,7 +8,6 @@ import javax.jms.Destination;
  * <p> @作者：jankin_lv </p>
  * <p> @创建时间: 2018/11/21 22:59 </p>
  */
-@Component
 public interface ProducerService {
 
     /**

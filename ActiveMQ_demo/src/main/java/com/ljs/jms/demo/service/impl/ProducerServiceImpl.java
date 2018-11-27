@@ -1,17 +1,20 @@
 package com.ljs.jms.demo.service.impl;
 
 import com.ljs.jms.demo.service.ProducerService;
-import javax.jms.Destination;
-import javax.jms.Queue;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.core.JmsMessagingTemplate;
+import org.springframework.stereotype.Service;
+
+import javax.jms.Destination;
+import javax.jms.Queue;
 
 /**
- * 功能描述：TODO
+ * 功能描述：订单队列-生产者
  *
  * <p> @作者：jankin_lv </p>
  * <p> @创建时间: 2018/11/21 23:51 </p>
  */
+@Service
 public class ProducerServiceImpl implements ProducerService {
 
     @Autowired
