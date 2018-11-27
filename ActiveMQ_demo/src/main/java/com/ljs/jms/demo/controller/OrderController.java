@@ -2,7 +2,6 @@ package com.ljs.jms.demo.controller;
 
 import com.ljs.jms.demo.service.ProducerService;
 import com.ljs.jms.demo.utils.JsonData;
-import com.ljs.jms.demo.utils.JsonUtils;
 import org.apache.activemq.command.ActiveMQQueue;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
