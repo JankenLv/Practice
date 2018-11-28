@@ -42,4 +42,16 @@ public class OrderController {
         return JsonData.buildSuccess();
     }
 
+    /**
+     * 功能描述：发布消息
+     * @param msg
+     * @return java.lang.Object
+     */
+    @GetMapping("/topic")
+    public Object topic(String msg) {
+        producerService.publish(msg);
+        return JsonData.buildSuccess();
+    }
+
+
 }

@@ -1,0 +1,1 @@
+2018-11-19 00:03:46.059 ERROR[restartedMain]o.s.d.e.r.support.AbstractElasticsearchRepository.<init>:90 -failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{pXshzBeGQJetl69TyBCsNw}{192.168.48.130}{192.168.48.130:9200}]
