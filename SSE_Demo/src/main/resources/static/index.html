@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SSE服务端消息推送Demo</title>
+    <script type="text/javascript">
+        var source = new EventSource("/api/v1/sse/send_data");
+        source.onmessage = function (evt) {
+            console.info(evt.data);
+            document.getElementById('result').innerText = evt.data;
+        }
+    </script>
+</head>
+<body>
+<center>
+    <hr>
+    <h3>模拟股票行情实时推送</h3>
+    <div id="result"></div>
+    <hr>
+</center>
+</body>
+</html>
